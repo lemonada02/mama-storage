@@ -1,0 +1,247 @@
+/* Basic */
+body {
+    background-color: #99cd32af;
+    padding: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: lighter;
+  color: #333;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #99cd32;
+}
+
+tr {
+  border-bottom: 2px solid #99cd32;
+}
+
+th {
+  font-size: 20px;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  font-size: 18px;
+  color: #333;
+  padding: 3px;
+  text-align: center;
+  width: 180px;
+}
+
+tr:nth-child(odd) td{
+  background-color: #ddd;
+}
+
+tr:nth-child(even) td{
+  background-color: #bbb;
+}
+
+/* Form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 20px 20px #333;
+  max-width: 550px;
+  background-color: #a3b7c4b3;
+}
+
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -70px;
+  margin-bottom: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 20px 20px #333;
+  max-width: 900px;
+  background-color: #a3b7c4b3;
+}
+
+.form-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.form-part {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.form-part2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -40px;
+  margin-left: -30px;
+  padding: 20px;
+  width: 95%;
+  font-size: 20px;
+}
+
+.form-part2 label {
+  margin-right: 5px;
+  padding: 20px;
+  width: 215px;
+}
+
+.form-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid #99cd32;
+  background-color: #eee;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-button {
+  width: 90%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #99cd32cc;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 20px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+.form-button:hover {
+  background-color: rgba(153, 205, 50, 1);
+  border: solid 3px;
+  border-color: #333;
+}
+ 
+/* Specific */
+.normal-button {
+  width: 35%;
+  padding: 10px;
+  color: #333;
+  font-size: 22px;
+  margin-left: 400px;
+  margin-top: 10px;
+  border-radius: 12px;
+  background-color: #a3b7c4b3;
+}
+
+.returning-button {
+  width: 20%;
+  padding: 10px;
+  color: #333;
+  font-size: 14px;
+  margin-right: 650px;
+  border-radius: 12px;
+  background-color: #a3b7c4;
+}
+
+.returning-button:hover {
+  background-color: #8397a4;
+}
+
+.table-button, .table-button2, .table-button3 {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  border-color: #333;
+  background-color: #d74141;
+}
+
+.table-button2 {
+  background-color: #99cd32;
+}
+
+.table-button3 {
+  background-color: #5cafeb;
+}
+
+.table-button2:hover, .table-button:hover, .table-button3:hover {
+  background-color: #a3b7c4;
+}
+
+/* Card */
+.main-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.card-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}	
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 20px 20px #333;
+  width: 450px;
+  height: 200px;
+  background-color: #a3b7c4b3;
+}
+
+.card-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 20px 20px #333;
+  width: 225px;
+  height: 175px;
+  background-color: #99cd3290;
+}
+
+.card-container:hover {
+  background-color: #8397a4;
+}

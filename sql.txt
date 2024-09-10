@@ -1,0 +1,29 @@
+CREATE TABLE persona (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100),
+    apellidos VARCHAR(100),
+    fecha_nacimiento DATE,
+    nie VARCHAR(20) UNIQUE,
+    direccion VARCHAR(255),
+    telefono INTEGER,
+    tiempo_marchena INTEGER,
+    tiempo_espana INTEGER,
+    nivel_espanol VARCHAR(50),
+    nivel_estudios VARCHAR(100),
+    situacion_laboral VARCHAR(100),
+    profesion VARCHAR(100),
+    familiares VARCHAR(255),
+    tipo_vivienda VARCHAR(100),
+    comparte_vivienda VARCHAR(100),
+    respuesta TEXT,
+    derivacion TEXT,
+    asistencias JSONB
+);
+
+CREATE TABLE archivo (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(255),
+    archivo BYTEA,
+    persona INTEGER,
+    FOREIGN KEY (persona) REFERENCES persona(id)
+);
